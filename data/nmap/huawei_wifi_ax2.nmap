@@ -1,0 +1,47 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-01-26 14:59 -03
+Initiating ARP Ping Scan at 14:59
+Scanning 192.168.3.1 [1 port]
+Completed ARP Ping Scan at 14:59, 0.05s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 14:59
+Completed Parallel DNS resolution of 1 host. at 14:59, 0.00s elapsed
+Initiating SYN Stealth Scan at 14:59
+Scanning 192.168.3.1 [1000 ports]
+Discovered open port 53/tcp on 192.168.3.1
+Discovered open port 80/tcp on 192.168.3.1
+Discovered open port 443/tcp on 192.168.3.1
+Completed SYN Stealth Scan at 14:59, 0.19s elapsed (1000 total ports)
+Initiating OS detection (try #1) against 192.168.3.1
+Retrying OS detection (try #2) against 192.168.3.1
+Retrying OS detection (try #3) against 192.168.3.1
+Retrying OS detection (try #4) against 192.168.3.1
+Retrying OS detection (try #5) against 192.168.3.1
+Nmap scan report for 192.168.3.1
+Host is up, received arp-response (0.0022s latency).
+Scanned at 2025-01-26 14:59:30 -03 for 12s
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE REASON
+53/tcp  open  domain  syn-ack ttl 64
+80/tcp  open  http    syn-ack ttl 64
+443/tcp open  https   syn-ack ttl 64
+MAC Address: A4:3B:0E:5A:19:9F (Huawei Device)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=1/26%OT=53%CT=1%CU=42595%PV=Y%DS=1%DC=D%G=Y%M=A43B0
+OS:E%TM=6796780E%P=x86_64-pc-linux-gnu)SEQ(SP=102%GCD=1%ISR=109%TI=Z%CI=Z%I
+OS:I=I%TS=U)OPS(O1=M5B4NNSNW4%O2=M5B4NNSNW4%O3=M5B4NW4%O4=M5B4NNSNW4%O5=M5B
+OS:4NNSNW4%O6=M5B4NNS)WIN(W1=7210%W2=7210%W3=7210%W4=7210%W5=7210%W6=7210)E
+OS:CN(R=Y%DF=Y%T=40%W=7210%O=M5B4NNSNW4%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F
+OS:=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5
+OS:(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z
+OS:%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=
+OS:N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%
+OS:CD=S)
+
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=258 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Read data files from: /usr/bin/../share/nmap
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 11.67 seconds
+           Raw packets sent: 1111 (52.918KB) | Rcvd: 1071 (46.030KB)

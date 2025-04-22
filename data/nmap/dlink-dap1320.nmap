@@ -1,0 +1,44 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-01-26 14:58 -03
+Initiating ARP Ping Scan at 14:58
+Scanning 192.168.3.125 [1 port]
+Completed ARP Ping Scan at 14:58, 0.19s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 14:58
+Completed Parallel DNS resolution of 1 host. at 14:58, 0.00s elapsed
+Initiating SYN Stealth Scan at 14:58
+Scanning 192.168.3.125 [1000 ports]
+Discovered open port 53/tcp on 192.168.3.125
+Discovered open port 80/tcp on 192.168.3.125
+Completed SYN Stealth Scan at 14:58, 1.44s elapsed (1000 total ports)
+Initiating OS detection (try #1) against 192.168.3.125
+Nmap scan report for 192.168.3.125
+Host is up, received arp-response (0.011s latency).
+Scanned at 2025-01-26 14:58:34 -03 for 3s
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE REASON
+53/tcp open  domain  syn-ack ttl 64
+80/tcp open  http    syn-ack ttl 64
+MAC Address: 02:AB:1B:41:D3:A8 (Unknown)
+Device type: WAP|storage-misc
+Running: Linux 2.6.X, Thecus embedded
+OS CPE: cpe:/o:linux:linux_kernel:2.6.26 cpe:/h:thecus:4200 cpe:/h:thecus:n5500
+OS details: OpenWrt Kamikaze 8.09 (Linux 2.6.26), Thecus 4200 or N5500 NAS device (Linux 2.6.33)
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=1/26%OT=53%CT=1%CU=35907%PV=Y%DS=1%DC=D%G=Y%M=02AB1
+OS:B%TM=679677CD%P=x86_64-pc-linux-gnu)SEQ(SP=CD%GCD=1%ISR=CE%TI=Z%CI=Z%II=
+OS:I%TS=U)OPS(O1=M5B4NNSNW1%O2=M5B4NNSNW1%O3=M5B4NW1%O4=M5B4NNSNW1%O5=M5B4N
+OS:NSNW1%O6=M5B4NNS)WIN(W1=16D0%W2=16D0%W3=16D0%W4=16D0%W5=16D0%W6=16D0)ECN
+OS:(R=Y%DF=Y%T=40%W=16D0%O=M5B4NNSNW1%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A
+OS:S%RD=0%Q=)T2(R=N)T3(R=Y%DF=Y%T=40%W=16D0%S=O%A=S+%F=AS%O=M5B4NNSNW1%RD=0
+OS:%Q=)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z
+OS:%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y
+OS:%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RI
+OS:PL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=205 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Read data files from: /usr/bin/../share/nmap
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 3.13 seconds
+           Raw packets sent: 1039 (46.746KB) | Rcvd: 1017 (41.642KB)

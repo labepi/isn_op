@@ -1,0 +1,51 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-01-23 15:21 -03
+Initiating ARP Ping Scan at 15:21
+Scanning 192.168.3.156 [1 port]
+Completed ARP Ping Scan at 15:21, 0.09s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 15:21
+Completed Parallel DNS resolution of 1 host. at 15:21, 0.00s elapsed
+Initiating SYN Stealth Scan at 15:21
+Scanning 192.168.3.156 [1000 ports]
+Discovered open port 22/tcp on 192.168.3.156
+Discovered open port 139/tcp on 192.168.3.156
+Discovered open port 80/tcp on 192.168.3.156
+Discovered open port 445/tcp on 192.168.3.156
+Discovered open port 81/tcp on 192.168.3.156
+Completed SYN Stealth Scan at 15:21, 0.33s elapsed (1000 total ports)
+Initiating OS detection (try #1) against 192.168.3.156
+Nmap scan report for 192.168.3.156
+Host is up, received arp-response (0.012s latency).
+Scanned at 2025-01-23 15:21:58 -03 for 2s
+Not shown: 995 closed tcp ports (reset)
+PORT    STATE SERVICE      REASON
+22/tcp  open  ssh          syn-ack ttl 64
+80/tcp  open  http         syn-ack ttl 64
+81/tcp  open  hosts2-ns    syn-ack ttl 64
+139/tcp open  netbios-ssn  syn-ack ttl 64
+445/tcp open  microsoft-ds syn-ack ttl 64
+MAC Address: B8:27:EB:C3:25:9F (Raspberry Pi Foundation)
+Device type: general purpose|router
+Running: Linux 4.X|5.X, MikroTik RouterOS 7.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5 cpe:/o:mikrotik:routeros:7 cpe:/o:linux:linux_kernel:5.6.3
+OS details: Linux 4.15 - 5.19, OpenWrt 21.02 (Linux 5.4), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)
+TCP/IP fingerprint:
+OS:SCAN(V=7.95%E=4%D=1/23%OT=22%CT=1%CU=40290%PV=Y%DS=1%DC=D%G=Y%M=B827EB%T
+OS:M=679288C8%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=10B%TI=Z%CI=Z%II=I
+OS:%TS=A)OPS(O1=M5B4ST11NW7%O2=M5B4ST11NW7%O3=M5B4NNT11NW7%O4=M5B4ST11NW7%O
+OS:5=M5B4ST11NW7%O6=M5B4ST11)WIN(W1=FE88%W2=FE88%W3=FE88%W4=FE88%W5=FE88%W6
+OS:=FE88)ECN(R=Y%DF=Y%T=40%W=FAF0%O=M5B4NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O
+OS:%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=
+OS:0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%
+OS:S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(
+OS:R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=
+OS:N%T=40%CD=S)
+
+Uptime guess: 7.549 days (since Thu Jan 16 02:11:33 2025)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Read data files from: /usr/bin/../share/nmap
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 1.93 seconds
+           Raw packets sent: 1023 (45.806KB) | Rcvd: 1015 (41.298KB)

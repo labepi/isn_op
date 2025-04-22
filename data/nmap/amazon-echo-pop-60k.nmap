@@ -1,0 +1,88 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-01-25 09:14 -03
+Initiating ARP Ping Scan at 09:14
+Scanning 192.168.1.102 [1 port]
+Completed ARP Ping Scan at 09:14, 0.07s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 09:14
+Completed Parallel DNS resolution of 1 host. at 09:14, 0.00s elapsed
+Initiating SYN Stealth Scan at 09:14
+Scanning 192.168.1.102 [1000 ports]
+Discovered open port 8888/tcp on 192.168.1.102
+Discovered open port 1080/tcp on 192.168.1.102
+Completed SYN Stealth Scan at 09:14, 3.81s elapsed (1000 total ports)
+Initiating OS detection (try #1) against 192.168.1.102
+Retrying OS detection (try #2) against 192.168.1.102
+Retrying OS detection (try #3) against 192.168.1.102
+Retrying OS detection (try #4) against 192.168.1.102
+Retrying OS detection (try #5) against 192.168.1.102
+Nmap scan report for 192.168.1.102
+Host is up, received arp-response (0.020s latency).
+Scanned at 2025-01-25 09:14:06 -03 for 15s
+Not shown: 956 filtered tcp ports (no-response)
+PORT      STATE  SERVICE        REASON
+1080/tcp  open   socks          syn-ack ttl 64
+6543/tcp  closed mythtv         reset ttl 64
+8888/tcp  open   sun-answerbook syn-ack ttl 64
+10001/tcp closed scp-config     reset ttl 64
+16992/tcp closed amt-soap-http  reset ttl 64
+16993/tcp closed amt-soap-https reset ttl 64
+17877/tcp closed unknown        reset ttl 64
+17988/tcp closed unknown        reset ttl 64
+18040/tcp closed unknown        reset ttl 64
+18101/tcp closed unknown        reset ttl 64
+18988/tcp closed unknown        reset ttl 64
+19101/tcp closed unknown        reset ttl 64
+19283/tcp closed keysrvr        reset ttl 64
+19315/tcp closed keyshadow      reset ttl 64
+19350/tcp closed unknown        reset ttl 64
+19780/tcp closed unknown        reset ttl 64
+19801/tcp closed unknown        reset ttl 64
+19842/tcp closed unknown        reset ttl 64
+20000/tcp closed dnp            reset ttl 64
+20005/tcp closed btx            reset ttl 64
+20031/tcp closed unknown        reset ttl 64
+20221/tcp closed unknown        reset ttl 64
+20222/tcp closed ipulse-ics     reset ttl 64
+20828/tcp closed unknown        reset ttl 64
+21571/tcp closed unknown        reset ttl 64
+22939/tcp closed unknown        reset ttl 64
+23502/tcp closed unknown        reset ttl 64
+24444/tcp closed unknown        reset ttl 64
+24800/tcp closed unknown        reset ttl 64
+25734/tcp closed unknown        reset ttl 64
+25735/tcp closed unknown        reset ttl 64
+26214/tcp closed unknown        reset ttl 64
+27000/tcp closed flexlm0        reset ttl 64
+27352/tcp closed unknown        reset ttl 64
+27353/tcp closed unknown        reset ttl 64
+27355/tcp closed unknown        reset ttl 64
+27356/tcp closed unknown        reset ttl 64
+27715/tcp closed unknown        reset ttl 64
+28201/tcp closed unknown        reset ttl 64
+30000/tcp closed ndmps          reset ttl 64
+30718/tcp closed unknown        reset ttl 64
+30951/tcp closed unknown        reset ttl 64
+31038/tcp closed unknown        reset ttl 64
+31337/tcp closed Elite          reset ttl 64
+MAC Address: FC:D7:49:93:4C:74 (Unknown)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=1/25%OT=1080%CT=6543%CU=31131%PV=Y%DS=1%DC=D%G=Y%M=
+OS:FCD749%TM=6794D59D%P=x86_64-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=10C%TI=Z%C
+OS:I=Z%TS=A)SEQ(SP=104%GCD=2%ISR=10C%TI=Z%CI=Z%TS=A)OPS(O1=M5B4ST11NW6%O2=M
+OS:5B4ST11NW6%O3=M5B4NNT11NW6%O4=M5B4ST11NW6%O5=M5B4ST11NW6%O6=M5B4ST11)WIN
+OS:(W1=FE88%W2=FE88%W3=FE88%W4=FE88%W5=FE88%W6=FE88)ECN(R=Y%DF=Y%T=40%W=FAF
+OS:0%O=M5B4NNSNW6%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(
+OS:R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z
+OS:%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y
+OS:%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RI
+OS:PL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=N)
+
+Uptime guess: 12.447 days (since Sun Jan 12 22:30:20 2025)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=260 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Read data files from: /usr/bin/../share/nmap
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 15.63 seconds
+           Raw packets sent: 2098 (99.916KB) | Rcvd: 106 (6.460KB)

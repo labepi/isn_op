@@ -1,0 +1,55 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-01-23 16:32 -03
+Initiating ARP Ping Scan at 16:32
+Scanning 192.168.3.128 [1 port]
+Completed ARP Ping Scan at 16:32, 0.20s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 16:32
+Completed Parallel DNS resolution of 1 host. at 16:32, 0.00s elapsed
+Initiating SYN Stealth Scan at 16:32
+Scanning 192.168.3.128 [1000 ports]
+Discovered open port 1054/tcp on 192.168.3.128
+Discovered open port 1138/tcp on 192.168.3.128
+Discovered open port 7000/tcp on 192.168.3.128
+Discovered open port 3000/tcp on 192.168.3.128
+Discovered open port 9080/tcp on 192.168.3.128
+Discovered open port 1036/tcp on 192.168.3.128
+Discovered open port 3001/tcp on 192.168.3.128
+Completed SYN Stealth Scan at 16:32, 0.15s elapsed (1000 total ports)
+Initiating OS detection (try #1) against 192.168.3.128
+Nmap scan report for 192.168.3.128
+Host is up, received arp-response (0.0033s latency).
+Scanned at 2025-01-23 16:32:03 -03 for 1s
+Not shown: 993 closed tcp ports (reset)
+PORT     STATE SERVICE         REASON
+1036/tcp open  nsstp           syn-ack ttl 64
+1054/tcp open  brvread         syn-ack ttl 64
+1138/tcp open  encrypted_admin syn-ack ttl 64
+3000/tcp open  ppp             syn-ack ttl 64
+3001/tcp open  nessus          syn-ack ttl 64
+7000/tcp open  afs3-fileserver syn-ack ttl 64
+9080/tcp open  glrpc           syn-ack ttl 64
+MAC Address: 4C:22:F3:7B:E2:06 (Arcadyan)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.14
+TCP/IP fingerprint:
+OS:SCAN(V=7.95%E=4%D=1/23%OT=1036%CT=1%CU=40820%PV=Y%DS=1%DC=D%G=Y%M=4C22F3
+OS:%TM=67929934%P=x86_64-pc-linux-gnu)SEQ(SP=106%GCD=1%ISR=104%TI=Z%CI=I%II
+OS:=I%TS=7)OPS(O1=M5B4ST11NW7%O2=M5B4ST11NW7%O3=M5B4NNT11NW7%O4=M5B4ST11NW7
+OS:%O5=M5B4ST11NW7%O6=M5B4ST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%
+OS:W6=7120)ECN(R=Y%DF=Y%T=40%W=7210%O=M5B4NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S
+OS:=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%R
+OS:D=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=
+OS:0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U
+OS:1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DF
+OS:I=N%T=40%CD=S)
+
+Uptime guess: 0.028 days (since Thu Jan 23 15:51:38 2025)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=262 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Read data files from: /usr/bin/../share/nmap
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 1.84 seconds
+           Raw packets sent: 1023 (45.806KB) | Rcvd: 1015 (41.306KB)
