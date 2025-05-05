@@ -9,7 +9,7 @@ STEP=5000
 # STEP=10000
 
 # DATASET_NAME="dataset_class_10k.dat"
-DATASET_NAME="dataset_class_$STEP.dat"
+DATASET_NAME="../classification/dataset_class_$STEP.dat"
 
 if [ -r $DATASET_NAME ]
 then

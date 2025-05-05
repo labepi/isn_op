@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILES=$( ls switches/ )
+FILES=$( ls ../switches/ )
 
 for i in ${FILES[@]}
 do

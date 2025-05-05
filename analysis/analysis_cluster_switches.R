@@ -1,3 +1,6 @@
+# https://github.com/labepi/bandt_pompe
+# change the path accordingly
+
 bandt_pompe_path <- "~/ufrn/bandt_pompe/"
 
 source(paste(bandt_pompe_path, "bandt_pompe.R", sep = ""))
@@ -27,7 +30,7 @@ tau <- 1
 D_l <- c(2, 3, 4, 5, 6, 7)
 
 # directory of samples
-dir_samples <- "../tcp-isn/data/switches/"
+dir_samples <- "../data/switches/"
 
 # getting the list of files
 files <- list.files(dir_samples)
@@ -491,7 +494,7 @@ colnames(dataset) <- c(
 )
 
 
-file <- read.csv("../tcp-isn/data/switches_dataset.csv")
+file <- read.csv("../data/switches_dataset.csv")
 classes <- unlist(lapply(strsplit(file$label, "-"), "[", 1))
 for (i in 1:nrow(file)) {
     print(i)

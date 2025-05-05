@@ -1,7 +1,7 @@
 import csv 
 import glob
 
-files = glob.glob("../tcp-isn/data/samples/*")
+files = glob.glob("../data/samples/*")
 
 
 for file in files:  
